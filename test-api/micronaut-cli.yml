@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.invent
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, docker, file-watch, hibernate-jpa, http-client, java, java-application, jdbc-hikari, junit, logback, maven, mysql, netty-server, readme, shade, testcontainers, yaml]

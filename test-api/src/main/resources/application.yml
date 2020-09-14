@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: testApi
+  server:
+    cors:
+      enabled: true
+      configurations:
+        web:
+          allowedMethods:
+            - GET
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/products
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ''
+jpa.default.properties.hibernate.hbm2ddl.auto: update
+jpa.default.packages-to-scan: com.invent.entity
+jpa.default.properties.hibirnate.show_sql: true
